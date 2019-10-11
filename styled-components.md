@@ -38,15 +38,45 @@ const Button = styled.button`
 class Comp extends React.Component {
   render() {
   
-  return <Container>
-    <h1>Signup Form</h1>
-    <Button>Click Here</Button>
-  </Container>
-  
+    return <Container>
+      <h1>Signup Form</h1>
+      <Button>Click Here</Button>
+    </Container>
+
   }
 }
 
 export default Comp
 
+
+```
+
+
+Also, if your component has no logic and is just styles, you can just return a function:
+```js
+import React from 'react'
+import styled from 'styled-components'
+
+const Container = styled.div`
+  height: 100px;
+  width: 100px;
+  border-radius: 5px;
+  padding: 20px;
+`
+
+const Button = styled.button`
+  padding: 20px 10px;
+  background: #222;
+  color: white;
+  border: none;
+  border-radius: 20px;
+`
+
+export default () => {
+  return <Container>
+      <h1>Signup Form</h1>
+      <Button>Click Here</Button>
+    </Container>
+}
 
 ```
