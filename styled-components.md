@@ -37,13 +37,12 @@ const Button = styled.button`
 
 class Comp extends React.Component {
   render() {
-  
-    return <Container>
-      <h1>Signup Form</h1>
-      <Button>Click Here</Button>
-    </Container>
-
-  }
+    return (
+      <Container>
+        <h1>Signup Form</h1>
+        <Button>Click Here</Button>
+      </Container>
+    )
 }
 
 export default Comp
