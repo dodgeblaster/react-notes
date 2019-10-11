@@ -1,9 +1,8 @@
-#Events in React
-
+# Events in React
 
 ```js
 
-class Compp extends React.Component {
+class Comp extends React.Component {
   
   launch = () => {
     console.log('LAUNCH')
