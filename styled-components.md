@@ -51,7 +51,7 @@ export default Comp
 ```
 
 
-Also, if your component has no logic and is just styles, you can just return a function:
+Also, if your component has no logic and is just styles and markup, you can just return a function:
 ```js
 import React from 'react'
 import styled from 'styled-components'
