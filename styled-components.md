@@ -72,11 +72,11 @@ const Button = styled.button`
   border-radius: 20px;
 `
 
-export default () => {
-  return <Container>
+export default () => (
+  <Container>
       <h1>Signup Form</h1>
       <Button>Click Here</Button>
-    </Container>
-}
+  </Container>
+)
 
 ```
